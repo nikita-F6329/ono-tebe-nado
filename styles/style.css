@@ -1,10 +1,4 @@
-/* место для вашего кода */
-
 .header {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center; */
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -238,13 +232,13 @@
 
 .about__logo {
   display: flex;
+  place-self: end;
   justify-content: center;
   align-items: center;
   width: 240px;
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  place-self: end;
 }
 
 .about__logo-image {
